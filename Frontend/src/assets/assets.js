@@ -1,6 +1,6 @@
 // Importing Images and Icons
-import appointment_img from './appointment.png';
-import header_img from './header_img.png';
+// import appointment_img from './appointment.png';
+// import header_img from './header_img.png';
 import group_profiles from './group_profiles.png';
 import profile_pic from './profile_pic.png';
 import contact_image from './contact_image.png';
@@ -43,8 +43,8 @@ import Neurologist from './Neurologist.svg';
 import Pediatrician from './Pediatrician.svg';
 
 export const assets = {
-    appointment_img,
-    header_img,
+    // appointment_img,
+    // header_img,
     group_profiles,
     profile_pic,
     contact_image,
