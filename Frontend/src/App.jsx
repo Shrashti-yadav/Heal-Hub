@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { Route ,Routes } from 'react-router-dom';
 import Home from './pages/Home'
@@ -14,7 +15,7 @@ const App = () => {
       {/* <Route path='/appointment/:docId' element={<Appointment/>} /> */}
     </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
