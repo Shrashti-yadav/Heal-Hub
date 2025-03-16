@@ -20,7 +20,7 @@ const Doctors = () => {
       <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
         {/* Speciality List */}
         <div className='flex flex-col gap-4 text-sm text-gray-600'>
-          {['General Physician', 'Gynecologist', 'Dermatologist', 'Pediatrician', 'Neurologist', 'Gastroenterologist'].map((spec) => (
+          {['General physician', 'Gynecologist', 'Dermatologist', 'Pediatricians', 'Neurologist', 'Gastroenterologist'].map((spec) => (
             <p
               key={spec}
               onClick={() => navigate(speciality === spec ? '/doctors' : `/doctors/${spec}`)}
