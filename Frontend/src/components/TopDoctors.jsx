@@ -21,7 +21,7 @@ const TopDoctors = () => {
             key={index}
           >
             {/* Doctor Image with Proper Box Layout */}
-            <div onClick={() => navigate(`/appointment/${item._id}`)} className="w-full h-100 bg-gray-100 flex items-center justify-center gap-9">
+            <div onClick={() =>{ navigate(`/appointment/${item._id}`);scrollTo(0,0)} } className="w-full h-100 bg-gray-100 flex items-center justify-center gap-9">
               <img className="w-full h-full object-cover" src={item.image} alt={item.name} />
             </div>
 
