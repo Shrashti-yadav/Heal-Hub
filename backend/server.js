@@ -5,7 +5,7 @@ import connectDB from './config/mongodb.js'
 import connectCloudinary  from './config/cloudinary.js'
 import adminRouter from './routes/adminroute.js'
 const app=express()
-const port=process.env.PORT||4000;
+const port=process.env.PORT||5000;
 connectDB()
 connectCloudinary()
 
