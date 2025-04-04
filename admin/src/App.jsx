@@ -9,7 +9,7 @@ import Dashboard from './pages/Admin/Dashboard';
 import AllApointments from './pages/Admin/AllApointments';
 import AddDoctor from './pages/Admin/AddDoctor';
 import DoctorsList from './pages/Admin/DoctorsList';
-import {Routes} from 'react-router-dom';
+import {Routes ,Route} from 'react-router-dom';
 const App = () => {
   const {aToken}=useContext(AdminContext)
 
@@ -21,11 +21,11 @@ const App = () => {
       <div className='flex items-start'>
         <Sidebar/>
         <Routes>
-          <Route path='/'elements={<></>}/>
-          <Route path='/admin-dashboard'elements={<Dashboard/>}/>
-          <Route path='/all-appointments'elements={<AllApointments/>}/>
-          <Route path='/add-doctor'elements={<AddDoctor/>}/>
-          <Route path='/doctor-list'elements={<DoctorsList/>}/>
+          <Route path='/'element={<></>}/>
+          <Route path='/admin-dashboard'element={<Dashboard/>}/>
+          <Route path='/all-appointments'element={<AllApointments/>}/>
+          <Route path='/add-doctor'element={<AddDoctor/>}/>
+          <Route path='/doctor-list'element={<DoctorsList/>}/>
         </Routes>
       </div>
     </div>
