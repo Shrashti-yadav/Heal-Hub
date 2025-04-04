@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 //import { assets } from '../assets/assets'
 import { AdminContext } from '../context/AdminContext'
 import axios from 'axios'
-
+import { toast } from 'react-toastify'
 
 const Login = () => {
     const [state,setState]=useState('Admin')
@@ -18,12 +18,14 @@ const Login = () => {
            console.log(backendUrl+'/api/admin/login')
            const {data}=await axios.post(backendUrl+'/api/admin/login',{email,password})
            if(data.success){
-            console.log(data.token)
+            //console.log(data.token)
             localStorage.setItem('aToken',data.token)
             setAToken(data.token)
            }
+
            else{
-             console.log(data.message)
+             //console.log(data.message)
+             toast.error(data.message);
            }
         }
 
