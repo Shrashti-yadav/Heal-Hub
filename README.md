@@ -4,12 +4,7 @@
 
 ---
 
-## 🌐 Live Preview
 
-- 👤 **User Portal**: [https://heal-hub-user.vercel.app](https://heal-hub-user.vercel.app)
-
-
----
 
 ## 🚀 Key Features
 
