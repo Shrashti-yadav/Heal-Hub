@@ -2,6 +2,10 @@
 
 **HealHub** is a smart, full-stack healthcare platform designed to simplify doctor appointment booking, AI-assisted medical guidance, secure online payments, and prescription analysis — all in one place. It offers dedicated panels for Users, Doctors, and Admins, with secure JWT-based authentication and a built-in AI assistant: **PharmaMate**.
 
+## 🎥 Demo Video
+
+[![Demo Video](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1hY-0Q8Q-eqIL_7IVZv_1ovIf6U6X7ckF/view)
+
 ---
 
 
